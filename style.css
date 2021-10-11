@@ -1,0 +1,96 @@
+body {
+    color: #555;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    color: #66ACF0;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(115, 211, 255);
+}
+a:visited {
+    color: rgb(170, 170, 170);
+}
+table {
+    width: 100%;
+}
+table td{
+    padding: 10px;
+}
+table tr:nth-child(odd) {
+    background:#66ACF0;
+    color: #fff;
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    background: #ddeeff;
+    border-radius: 20px;
+}
+.avatar { 
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    float: left;
+    margin-right: 35px;
+}
+.info p {
+    margin: 0;
+   /* letter-spacing: 2px; */
+}
+/* Box model */
+.container {
+    max-width:950px;
+    margin: auto;
+}
+.info {
+    margin-bottom: 20px;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+.list {
+    padding: 5px 15px;
+}
+li {
+    margin-bottom: 10px;
+}
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+.link-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+.contact {
+    text-align: center;
+}
+.form-group label {
+    text-align: left;
+    margin-left: 350px;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 30%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    padding: 11px 20px 13px;  
+    font-size: 14px;  
+    outline: none;
+    font-family: inherit;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    margin-bottom: 15px;
+}
+input::placeholder {
+    color:rgba(55, 55, 55, 0.3);
+}
